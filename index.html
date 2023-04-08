@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+<!--This is a clone of https://snappa.com/-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://i1.wp.com/atterbie.com/wp-content/uploads/2018/07/2fb069c1b2fc90675ed6e680d7dbf155e1b40f75_snappa-logo-blue-hd.png"
+            alt="header-image" id="header-img">
+        <nav id="nav-bar">
+            <div class="desktop" id="nav-desktop">
+                <ul>
+                    <li class="nav-link-li"><a class="nav-link" href="#banner">Home</a></li>
+                    <li class="nav-link-li"><a class="nav-link" href="#features-large">Features</a></li>
+                    <li class="nav-link-li"><a class="nav-link" href="#get-started">Get Started Free</a></li>
+                </ul>
+            </div>
+            <div class="mobile">
+                <div id="nav-mobile">
+                    <input type="checkbox" id="nav-toggle">
+                    <label for="nav-toggle" class="sandwich"><i class="fas fa-bars"></i></label>
+                    <div class="nav-mobile-menu">
+                        <ul>
+                            <li class="nav-link-li"><a class="nav-link" href="#banner">Home</a></li>
+                            <li class="nav-link-li"><a class="nav-link" href="#features-large">Features</a></li>
+                            <li class="nav-link-li"><a class="nav-link" href="#get-started">Get Started Free</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="products">
+        <section class="banner blue" id="banner">
+            <div class="section-container">
+                <div id="banner-text">
+                    <h1>Create online graphics in a snap.</h1>
+                    <p>Whip up graphics for social media, ads, blogs, and more without Photoshop or graphic designers.
+                    </p>
+                    <button class="button-primary">Create My Graphic Now</button>
+                    <div class="mobile">
+                        <button class="button-secondary"><i class="fas fa-play"></i> Watch 55s demo</button>
+                    </div>
+                </div>
+                <div id="banner-video">
+                    <div class="desktop">
+                        <iframe id="video" src="https://player.vimeo.com/video/167739505" allowfullscreen=""
+                            allowtransparency="" allow="autoplay" title="Banner Video" data-ready="true"
+                            tabindex="-1"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features-large" id="features-large">
+            <div class="section-container">
+                <h1>Snappa saves you time every step of the way</h1>
+                <hr />
+                <div class="features-large-section">
+                    <div class="features-large-text">
+                        <h2>Start with the perfect image dimensions</h2>
+                        <p>The perfect sized image is always one click away. Image dimensions for social media, display
+                            ads, blogs, emails, and infographics are available as clickable presets.</p>
+                    </div>
+                    <div class="features-large-img">
+                        <img src="https://snappa.com/public/img/featurepage_sizing2.jpg" alt=""
+                            class="sub-section-img" />
+                    </div>
+                </div>
+                <div class="features-large-section">
+                    <div class="features-large-text">
+                        <h2>Get a head start with pre-made templates</h2>
+                        <p>Don’t start from scratch or stare at a blank screen ever again. Choose from thousands of
+                            pre-made templates that look professional and earn you more attention, clicks, and
+                            customers.</p>
+                    </div>
+                    <div class="features-large-img">
+                        <img src="https://snappa.com/public/img/featurepage_templates2.jpg" alt=""
+                            class="sub-section-img" />
+                    </div>
+                </div>
+                <div class="features-large-section">
+                    <div class="features-large-text">
+                        <h2>Find free high-res stock photos inside Snappa</h2>
+                        <p>Get access to 500,000+ free, high-resolution, and totally not cheesy stock photos. You don’t
+                            need to scour multiple stock libraries, worry about usage rights, or pay for the best
+                            background images anymore.</p>
+                    </div>
+                    <div class="features-large-img">
+                        <img src="https://snappa.com/public/img/featurepage_photos.jpg" alt=""
+                            class="sub-section-img" />
+                    </div>
+                </div>
+                <div class="features-large-section">
+                    <div class="features-large-text">
+                        <h2>Add text, graphics, and effects in seconds</h2>
+                        <p>Create whatever you’ve imagined in seconds. Choose from 200+ fonts, 70,000+ vectors and
+                            shapes, and play with photo effects until your graphic is perfect -- no design experience
+                            required.</p>
+                    </div>
+                    <div class="features-large-img">
+                        <img src="https://snappa.com/public/img/featurepage_graphics.jpg" alt=""
+                            class="sub-section-img" />
+                        <div>
+                        </div>
+                        <div class="features-large-section">
+                            <div class="features-large-text">
+                                <h2>Schedule and share your graphics instantly</h2>
+                                <p>Share your graphics to Facebook, Twitter, and other popular social media platforms
+                                    without leaving Snappa. Save even more time when you connect your Buffer account and
+                                    pre-schedule your posts.</p>
+                            </div>
+                            <div class="features-large-img">
+                                <img src="https://snappa.com/public/img/featurepage_share.jpg" alt=""
+                                    class="sub-section-img" />
+                                <div>
+                                </div>
+                                <div class="features-large-section">
+                                    <div class="features-large-text">
+                                        <h2>Resize your best graphics in a couple of clicks</h2>
+                                        <p>Never make the same stunning graphic more than once. In two clicks, you can
+                                            turn your Twitter header into a Facebook cover, your Instagram post into a
+                                            Pinterest pin, or a Facebook ad into a billboard ad.</p>
+                                    </div>
+                                    <div class="features-large-img">
+                                        <img src="https://snappa.com/public/img/featurepage_resize.jpg" alt=""
+                                            class="sub-section-img" />
+                                    </div>
+                                </div>
+                            </div>
+        </section>
+        <section class="testimonial light-gray center-contents">
+            <div class="section-container">
+                <img src="https://snappa.com/public/img/sujan-testimonial.jpg" alt="" class="img-round""/>
+			<h3 class=" testimonial-name">Sujan Patel</h3>
+                <small class="testimonial-title">Co-founder of Narrow.io</small>
+                <p>"Snappa is the best tool I've used to create images for blog posts & Facebook ads. In 5 minutes I can
+                    do what used to take me hours to do or pay designers to do."</p>
+            </div>
+        </section>
+        <section class="action blue center-contents">
+            <div class="section-container">
+                <h2>Top entrepreneurs and marketers design graphics at breakneck speed with Snappa</h2>
+                <button class="button-primary">Create your next graphics in 5 minutes or less</button>
+            </div>
+        </section>
+        <section class="features-small">
+            <div class="section-container">
+                <h1>Snappa is fast, easy to use, and everything's included</h1>
+                <div class="features-small-item center-contents">
+                    <img src="https://snappa.com/public/img/home_speed.svg" alt="feature icon" class="img-round" />
+                    <h2>Designed for speed</h2>
+                    <p>Spend less time making graphics and more time growing your business, building relationships on
+                        social media, and creating content.</p>
+                </div>
+                <div class="features-small-item center-contents">
+                    <img src="https://snappa.com/public/img/home_magic.svg" alt="feature icon" class="img-round" />
+                    <h2>No learning curve</h2>
+                    <p>Use Snappa like a pro without watching long video tutorials, reading how-to posts, or being a
+                        graphic designer.</p>
+                </div>
+                <div class="features-small-item center-contents">
+                    <img src="https://snappa.com/public/img/home_picture.svg" alt="feature icon" class="img-round" />
+                    <h2>Everything included</h2>
+                    <p>All photos and graphics included in Snappa are 100% royalty-free and licensed for commercial use.
+                        No extra fees.</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial light-gray center-contents">
+            <div class="section-container">
+                <img src="https://snappa.com/public/img/olga-testimonial.jpg" alt="" class="img-round" />
+                <h3 class="testimonial-name">Olga Adrienko</h3>
+                <small class="testimonial-title">Communications & Social Media Lead @ SEMrush</small>
+                <p>"Snappa is a must have tool for the non-designers who publish content online. It's super easy to use
+                    and has a nice set of templates, and despite its simplicity offers unlimited possibilities for
+                    creative minds."</p>
+            </div>
+        </section>
+        <section class="action blue center-contents" id="get-started">
+            <div class="section-container">
+                <h2>Over 3 million images have been created using Snappa.</h2>
+                <button class="button-primary">Get started for free</button>
+            </div>
+        </section>
+        <section class="featured-in center-contents blue">
+            <div class="section-container">
+                <p id="featured-in-p">Featured in:</p>
+                <div id="featured-in-logos">
+                    <img src="https://snappa.com/public/img/company-logos/logo_leadpages.svg" alt="logo" />
+                    <img src="https://snappa.com/public/img/company-logos/logo_quicksprout.svg" alt="logo" />
+                    <img src="https://snappa.com/public/img/company-logos/logo_forbes.svg" alt="logo" />
+                    <img src="https://snappa.com/public/img/company-logos/logo_inc.svg" alt="logo" />
+                    <img src="https://snappa.com/public/img/company-logos/logo_semrush.svg" alt="logo" />
+                </div>
+            </div>
+        </section>
+        <section id="sign-up" class="sign-up action center-contents">
+            <div class="section-container">
+                <h2>Sign up to receive product updates via email</h2>
+                <form id="form" action="https://www.freecodecamp.com/shibatas" method="POST">
+                    <input id="email" type="email" name="email" placeholder="Your email address">
+                    <input id="submit" class="button-primary" type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-1">
+            <div id="footer-social-links">
+                <div>
+                    <img id="footer-logo"
+                        src="https://i1.wp.com/atterbie.com/wp-content/uploads/2018/07/2fb069c1b2fc90675ed6e680d7dbf155e1b40f75_snappa-logo-blue-hd.png"
+                        alt="snappa logo">
+                </div>
+                <div id="footer-social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div id="site-links">
+                <div id="site-links-column">
+                    <h3>Learn more</h3>
+                    <ul>
+                        <li>Features</li>
+                        <li>Plans & Pricing</li>
+                        <li>Snappa for Teams</li>
+                        <li>About Snappa</li>
+                        <li>Compare</li>
+                        <li>Affiliates</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div id="site-links-column">
+                    <h3>Use Cases</h3>
+                    <ul>
+                        <li>Features</li>
+                        <li>Plans & Pricing</li>
+                        <li>Snappa for Teams</li>
+                        <li>About Snappa</li>
+                        <li>Compare</li>
+                        <li>Affiliates</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div id="site-links-column">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li>Features</li>
+                        <li>Plans & Pricing</li>
+                        <li>Snappa for Teams</li>
+                        <li>About Snappa</li>
+                        <li>Compare</li>
+                        <li>Affiliates</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="footer-2 center-contents">
+            <p>This is a clone of www.snappa.com created solely for learning purpose. Shohei Shibata 2018</p>
+        </section>
+    </footer>
+</body>
+
+</html>
